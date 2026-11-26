@@ -1,32 +1,33 @@
+package OOP;
 class Human{
 
-    private int Age;
-    private String Name;
+    private int age;
+    private String name;
 
     public Human(){ // default Constructor
         System.out.println("This is default constructor");
-        Age = 12;
-        Name = "Ras";
+        age = 12;
+        name = "Ras";
         
     }
 
     public Human(int a, String n){ // Parameterized Constructor
         System.out.println("Parameterized Constructor..");
-        Age = a;
-        Name = n;
+        age = a;
+        name = n;
     }
     public int getAge(){
-        return Age;
+        return age;
     }
     public void setAge(int a){
-        Age = a;
+        age = a;
     }
     public String getName(){
-        return Name;
+        return name;
     }
 
     public void setName(String n){
-        Name = n;
+        name = n;
     }
 
 

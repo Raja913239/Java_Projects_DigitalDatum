@@ -1,0 +1,11 @@
+Accessible from	                Private	   Protected	Public	Default
+Same class	                      Yes	      Yes	     Yes	 Yes
+Same package, subclass	          No	      Yes	     Yes	 Yes
+Same package, non-subclass	      No	      Yes	     Yes	 Yes
+Different package, subclass	      No	      Yes	     Yes	  No
+Different package, non-subclass	  No	      No	     Yes	  No
+
+how to use them..
+Class as Public
+instance variables as Private
+Subclass can only access variables then Protected.
